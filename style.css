@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
-
 :root {
   --cor0: #10C6B8;
   --cor1: #001011;
@@ -11,31 +12,46 @@
   --cor3: #0E79B2;
   --cor4: #ECCE8E;
 }
-
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Ubuntu', Sans-Serif;
 }
-
+/*  */
 header {
   background: var(--cor1);
   color: #fff;
+  padding: 10px;
+  text-align: center;
 }
-
 header#cabecalho {
   position: sticky;
   top: 0px;
 }
+header#cabecalho > nav {
+  margin: 0px 0px 40px 0px;
+}
+header#cabecalho > nav > a {
+  border: 1px solid #fff;
+  color: #fff;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  width: 49%;
+}
+header#cabecalho > nav > a > li {
+  display: inline-block;
+  list-style-type: none;
+}
 
 main {
-  
+
 }
 
 main > img#minha_foto {
   border-radius: 50%;
-  border: 1px solid black;
+  border: 5px solid var(--cor3);
   display: block;
-  margin: 0px auto;
+  margin: 150px auto;
   padding: 5px;
   width: 180px;
 }
-
