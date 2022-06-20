@@ -1,7 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --cor0: #10C6B8;
+  --cor1: #001011;
+  --cor2: #FAC05E;
+  --cor3: #0E79B2;
+  --cor4: #ECCE8E;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
-header#cabecalho {
-  position: fixed;
-  top: 0;
+
+header {
+  background: var(--cor1);
+  color: #fff;
 }
+
+header#cabecalho {
+  position: sticky;
+  top: 0px;
+}
+
+main {
+  
+}
+
+main > img#minha_foto {
+  border-radius: 50%;
+  border: 1px solid black;
+  display: block;
+  margin: 0px auto;
+  padding: 5px;
+  width: 180px;
+}
+
