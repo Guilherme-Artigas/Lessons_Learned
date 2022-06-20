@@ -2,5 +2,6 @@ body {
   background-color: rgb(253, 251, 251);
 }
 main > header {
-  position: fixed; top: 0px;
+  position: fixed;
+  top: 0;
 }
