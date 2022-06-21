@@ -17,7 +17,9 @@
 
 body {
   background: rgb(253, 251, 251);
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 /* Fim das configurações gerais */
@@ -35,11 +37,11 @@ header#cabecalho {
   top: 0;
 }
 
-header#cabecalho> nav {
+header#cabecalho > nav {
   margin: 0px 0px 40px 0px;
 }
 
-header#cabecalho>nav>a {
+header#cabecalho > nav > a {
   border: 1px solid white;
   color: white;
   display: inline-block;
@@ -48,7 +50,7 @@ header#cabecalho>nav>a {
   width: 49%;
 }
 
-header#cabecalho>nav>a>li {
+header#cabecalho > nav > a > li {
   display: inline-block;
   list-style-type: none;
 }
@@ -62,7 +64,7 @@ img#minha_foto {
   border-radius: 50%;
   border: 2px solid var(--cor3);
   display: block;
-  margin: 150px auto;
+  margin: 300px auto;
   padding: 1px;
   width: 180px;
 }
@@ -74,13 +76,23 @@ ol , ul {
   text-align: left;
 }
 
-section> article >p {
+section > article.lado-esquerdo {
+  display: inline-block;
+  width: 49%;
+}
+
+section > aside.lado-direito {
+  display: inline-block;
+  width: 49%;
+}
+
+section > article > p {
   padding: 10px;
   text-align: justify;
   text-indent: 10px;
 }
 
-aside> p {
+aside > p {
   padding: 10px;
   text-align: justify;
   text-indent: 10px;
@@ -90,10 +102,11 @@ aside> p {
 footer {
   background: var(--cor1);
   color: white;
+  margin: 40px 0px 0px 0px;
   padding: 10px;
   text-align: center;
 }
 
-footer> a {
+footer > a {
   color: white;
 }
