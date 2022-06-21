@@ -21,15 +21,18 @@ body {
 }
 
 /* Fim das configurações gerais */
-header#cabecalho {
+header {
   background: var(--cor1);
   color: white;
   height: auto;
   padding: 10px;
-  position: sticky;
-  top: 0;
   text-align: center;
   width: 100%;
+}
+
+header#cabecalho {
+  position: sticky;
+  top: 0;
 }
 
 header#cabecalho>nav {
