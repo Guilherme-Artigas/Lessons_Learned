@@ -8,16 +8,16 @@
 }
 
 :root {
-  --cor0:#10c6b8;
-  --cor1:#001011;
-  --cor2:#fac05e;
-  --cor3:#0e79b2;
-  --cor4:#ecce8e;
+  --cor0: #10c6b8;
+  --cor1: #001011;
+  --cor2: #fac05e;
+  --cor3: #0e79b2;
+  --cor4: #ecce8e;
 }
 
 body {
   background: rgb(253, 251, 251);
-  font-family: 'Ubuntu', Sans-Serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* Fim das configurações gerais */
@@ -31,11 +31,11 @@ header {
 }
 
 header#cabecalho {
-  position: sticky;
+  position: fixed;
   top: 0;
 }
 
-header#cabecalho>nav {
+header#cabecalho> nav {
   margin: 0px 0px 40px 0px;
 }
 
@@ -67,20 +67,20 @@ img#minha_foto {
   width: 180px;
 }
 
-ol,ul {
+ol , ul {
   list-style-position: inside;
   padding: 10px;
   margin: 20px 0px;
   text-align: left;
 }
 
-section>article>p {
+section> article >p {
   padding: 10px;
   text-align: justify;
   text-indent: 10px;
 }
 
-aside>p {
+aside> p {
   padding: 10px;
   text-align: justify;
   text-indent: 10px;
@@ -94,6 +94,6 @@ footer {
   text-align: center;
 }
 
-footer>a {
+footer> a {
   color: white;
 }
