@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
 /* font-family: 'Ubuntu', sans-serif; */
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
+
 :root {
   --cor0: #10C6B8;
   --cor1: #001011;
@@ -12,10 +14,12 @@
   --cor3: #0E79B2;
   --cor4: #ECCE8E;
 }
+
 body {
-  background-color: rgb(253, 251, 251);
+  background: rgb(253, 251, 251);
   font-family: 'Ubuntu', Sans-Serif;
 }
+
 /*  */
 header {
   background: var(--cor1);
@@ -23,14 +27,17 @@ header {
   padding: 10px;
   text-align: center;
 }
+
 header#cabecalho {
   position: sticky;
-  top: 0px;
+  top: 0;
 }
-header#cabecalho > nav {
+
+header#cabecalho>nav {
   margin: 0px 0px 40px 0px;
 }
-header#cabecalho > nav > a {
+
+header#cabecalho>nav>a {
   border: 1px solid #fff;
   color: #fff;
   display: inline-block;
@@ -38,20 +45,53 @@ header#cabecalho > nav > a {
   text-decoration: none;
   width: 49%;
 }
-header#cabecalho > nav > a > li {
+
+header#cabecalho>nav>a>li {
   display: inline-block;
   list-style-type: none;
 }
 
+/*  */
 main {
-
+  text-align: center;
 }
 
-main > img#minha_foto {
+img#minha_foto {
   border-radius: 50%;
-  border: 5px solid var(--cor3);
+  border: 2px solid var(--cor3);
   display: block;
   margin: 150px auto;
-  padding: 5px;
+  padding: 1px;
   width: 180px;
+}
+
+ol,ul {
+  list-style-position: inside;
+  padding: 10px;
+  margin: 20px 0px;
+  text-align: left;
+}
+
+section>article>p {
+  padding: 10px;
+  text-align: justify;
+  text-indent: 10px;
+}
+
+aside>p {
+  padding: 10px;
+  text-align: justify;
+  text-indent: 10px;
+}
+
+/*  */
+footer {
+  background: var(--cor1);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer>a {
+  color: #fff;
 }
