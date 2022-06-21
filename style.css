@@ -8,11 +8,11 @@
 }
 
 :root {
-  --cor0: #10C6B8;
-  --cor1: #001011;
-  --cor2: #FAC05E;
-  --cor3: #0E79B2;
-  --cor4: #ECCE8E;
+  --cor0:#10c6b8;
+  --cor1:#001011;
+  --cor2:#fac05e;
+  --cor3:#0e79b2;
+  --cor4:#ecce8e;
 }
 
 body {
@@ -20,10 +20,10 @@ body {
   font-family: 'Ubuntu', Sans-Serif;
 }
 
-/*  */
+/* Fim das configurações gerais */
 header {
   background: var(--cor1);
-  color: #fff;
+  color: white;
   padding: 10px;
   text-align: center;
 }
@@ -38,8 +38,8 @@ header#cabecalho>nav {
 }
 
 header#cabecalho>nav>a {
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid white;
+  color: white;
   display: inline-block;
   padding: 10px;
   text-decoration: none;
@@ -51,7 +51,7 @@ header#cabecalho>nav>a>li {
   list-style-type: none;
 }
 
-/*  */
+/* Fim da estilização no header */
 main {
   text-align: center;
 }
@@ -84,14 +84,14 @@ aside>p {
   text-indent: 10px;
 }
 
-/*  */
+/* Fim da estilização no main */
 footer {
   background: var(--cor1);
-  color: #fff;
+  color: white;
   padding: 10px;
   text-align: center;
 }
 
 footer>a {
-  color: #fff;
+  color: white;
 }
